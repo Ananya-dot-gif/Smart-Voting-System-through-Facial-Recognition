@@ -1,0 +1,9 @@
+streamlit
+flask
+flask-pymongo
+flask-cors
+bcrypt
+face_recognition
+numpy
+pillow
+requests
