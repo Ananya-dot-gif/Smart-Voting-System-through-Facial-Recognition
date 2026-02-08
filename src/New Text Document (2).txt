@@ -1,0 +1,64 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: Arial, sans-serif;
+}
+
+/* Card box */
+.register-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Title */
+.register-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.register-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Webcam video */
+.register-card video {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+  border: 2px solid #ddd;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-card button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-card button:hover {
+  background: #6a11cb;
+}
